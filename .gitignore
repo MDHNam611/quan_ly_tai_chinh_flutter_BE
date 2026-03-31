@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Môi trường chạy (Runtime data)
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Thư viện (Cực kỳ quan trọng)
+node_modules/
+jspm_packages/
+
+# File chứa biến môi trường & Mật khẩu (Tuyệt đối không push)
+.env
+.env.test
+.env.production
+.env.local
+
+# Các file cấu hình của hệ điều hành (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Thư mục chứa code đã build (nếu có)
+dist/
+build/
